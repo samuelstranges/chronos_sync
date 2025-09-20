@@ -1,6 +1,9 @@
 # Chronos Sync
 
-AWS serverless app that sends SMS notifications 15 minutes before calendar events.
+AWS serverless app that sends SMS notifications 15 minutes before calendar
+events.
+
+![diagram](serverless.png)
 
 ## How it works
 
@@ -24,3 +27,4 @@ terraform apply
 ```
 
 Built with Lambda layers for fast deployments (5KB functions vs 45MB).
+
